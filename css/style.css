@@ -172,6 +172,16 @@ input:focus {
     padding: 0px;
   }
 }
+.button {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.button:hover {
+  background: #FF964E;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
 .header {
   position: fixed;
   left: 0px;
@@ -248,6 +258,13 @@ input:focus {
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+  .header_block_login:hover span {
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    color: #F36122;
   }
   .header_block_btn {
     display: none;
@@ -286,6 +303,13 @@ input:focus {
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+  .header_cats ul li a:hover {
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    color: #F36122;
   }
 }
 
@@ -567,6 +591,14 @@ input:focus {
   line-height: 32px;
   padding: 0px 20px;
   margin: 7px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.nav_items a:hover {
+  border: 1px solid #000;
+  color: #000;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 @media (min-width: 768px) {
   .nav {
@@ -689,6 +721,13 @@ input:focus {
   text-transform: capitalize;
   cursor: pointer;
   margin-top: 16px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.subscribe_right form input[type=submit]:hover {
+  background: #FF964E;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .subscribe_right p {
   color: rgba(255, 255, 255, 0.6);
@@ -1859,6 +1898,13 @@ input:focus {
   border: 1px solid #CBCBCB;
   background: #FFF;
   margin-top: 6px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.events_main_block form input:focus {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  border: 1px solid #0D0E29;
 }
 .events_main_block_text {
   color: #000;
@@ -2190,6 +2236,36 @@ input:focus {
 .single_events_block_main_sidebar_share_list a {
   display: block;
   margin-right: 16px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid #000;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.single_events_block_main_sidebar_share_list a svg path {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.single_events_block_main_sidebar_share_list a:hover {
+  border: 1px solid #F36122;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.single_events_block_main_sidebar_share_list a:hover svg path {
+  fill: #F36122;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 @media (min-width: 1024px) {
   .single_events::after {
@@ -2300,6 +2376,13 @@ input:focus {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.forums_top_text form input[type=text]:focus {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  border: 1px solid #0D0E29;
 }
 .forums_top_text form input[type=submit] {
   font-family: "Sora", sans-serif;
@@ -2317,6 +2400,13 @@ input:focus {
   text-transform: capitalize;
   margin-top: 16px;
   cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.forums_top_text form input[type=submit]:hover {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  background: #FF964E;
 }
 .forums_nav {
   margin-top: 90px;
@@ -2369,6 +2459,14 @@ input:focus {
   line-height: 32px;
   padding: 0px 20px;
   margin: 7px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.forums_nav_items a:hover {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #F36122;
+  border: 1px solid #F36122;
 }
 .forums_block {
   margin-top: 33px;
@@ -2446,6 +2544,8 @@ input:focus {
   font-weight: 600;
   line-height: normal;
   text-transform: capitalize;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .forums_block_main_item_text h4 {
   margin-top: 16px;
@@ -2454,6 +2554,8 @@ input:focus {
   font-style: normal;
   font-weight: 600;
   line-height: 122.5%;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .forums_block_main_item_down {
   display: -webkit-box;
@@ -2480,6 +2582,8 @@ input:focus {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .forums_block_main_item_down_btns {
   display: -webkit-box;
@@ -2504,6 +2608,28 @@ input:focus {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.forums_block_main_item:hover .forums_block_main_item_text_head span {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #FF964E;
+}
+.forums_block_main_item:hover .forums_block_main_item_text h4 {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #FF964E;
+}
+.forums_block_main_item:hover .forums_block_main_item_down p {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #FF964E;
+}
+.forums_block_main_item:hover .forums_block_main_item_down span {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #FF964E;
 }
 .forums_block_sidebar {
   -webkit-box-ordinal-group: 2;
@@ -2985,6 +3111,13 @@ input:focus {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.post_list_top_text form input[type=text]:focus {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  border: 1px solid #0D0E29;
 }
 .post_list_top_text form input[type=submit] {
   font-family: "Sora", sans-serif;
@@ -3002,6 +3135,13 @@ input:focus {
   text-transform: capitalize;
   margin-top: 16px;
   cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.post_list_top_text form input[type=submit]:hover {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  background: #FF964E;
 }
 .post_list_main {
   margin-top: 102px;
@@ -3036,6 +3176,8 @@ input:focus {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .post_list_main_item_top p span {
   color: #FF964E;
@@ -3066,6 +3208,8 @@ input:focus {
   font-weight: 600;
   line-height: normal;
   text-transform: capitalize;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .post_list_main_item_text h4 {
   margin-top: 16px;
@@ -3074,6 +3218,8 @@ input:focus {
   font-style: normal;
   font-weight: 600;
   line-height: 122.5%;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .post_list_main_item_down {
   display: -webkit-box;
@@ -3100,6 +3246,8 @@ input:focus {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .post_list_main_item_down_btns {
   display: -webkit-box;
@@ -3124,6 +3272,28 @@ input:focus {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.post_list_main_item:hover .post_list_main_item_text_head span {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #FF964E;
+}
+.post_list_main_item:hover .post_list_main_item_text h4 {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #FF964E;
+}
+.post_list_main_item:hover .post_list_main_item_down p {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #FF964E;
+}
+.post_list_main_item:hover .post_list_main_item_down span {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #FF964E;
 }
 @media (min-width: 768px) {
   .post_list.grid::after {
@@ -3311,6 +3481,8 @@ input:focus {
   font-weight: 600;
   line-height: normal;
   text-transform: capitalize;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .post_list_grid_item_text h4 {
   margin-top: 16px;
@@ -3319,6 +3491,8 @@ input:focus {
   font-style: normal;
   font-weight: 600;
   line-height: 122.5%;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .post_list_grid_item_down {
   margin-top: 20px;
@@ -3331,9 +3505,26 @@ input:focus {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .post_list_grid_item_down img {
   margin-top: 20px;
+}
+.post_list_grid_item:hover .post_list_grid_item_text_head span {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #FF964E;
+}
+.post_list_grid_item:hover .post_list_grid_item_text h4 {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #FF964E;
+}
+.post_list_grid_item:hover .post_list_grid_item_down p {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #FF964E;
 }
 @media (min-width: 768px) {
   .post_list_grid {
@@ -3485,6 +3676,13 @@ input:focus {
   font-style: normal;
   font-weight: 400;
   margin-top: 6px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.contact_block_right form input:focus {
+  border: 1px solid #0D0E29;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .contact_block_right form input[type=submit] {
   background: #F36122;
@@ -3498,6 +3696,13 @@ input:focus {
   cursor: pointer;
   margin-top: 24px;
   border: none;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.contact_block_right form input[type=submit]:hover {
+  background: #FF964E;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 @media (min-width: 768px) {
   .contact_block {
@@ -3636,6 +3841,13 @@ input:focus {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.footer_block_menu ul li a:hover {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #F36122;
 }
 .footer_block_social {
   width: 100%;
@@ -3666,6 +3878,22 @@ input:focus {
           justify-content: center;
   border: 1px solid #000;
   margin: 0px 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.footer_block_social a svg path {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.footer_block_social a:hover {
+  border: 1px solid #F36122;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.footer_block_social a:hover svg path {
+  fill: #F36122;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .footer_under {
   margin-top: 35px;
